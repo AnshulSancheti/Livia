@@ -169,12 +169,14 @@ def play_dataset_video(video_id: str, exercise: str = "Ex1") -> None:
     cv2.destroyAllWindows()
 
 
-def play_camera() -> None:
+def play_camera(device: int = 0) -> None:
     models = download_models()
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(device)
     if not cap.isOpened():
-        raise SystemExit("Could not open camera 0.")
+        raise SystemExit(f"Could not open camera {device}.")
     win = "Livia pose — webcam (q quit)"
+    cv2.namedWindow(win, cv2.WINDOW_NORMAL)
+    cv2.resizeWindow(win, 960, 720)
     idx = 0
     t0 = time.time()
     counted = 0
@@ -208,11 +210,12 @@ def play_camera() -> None:
 def main() -> None:
     p = argparse.ArgumentParser(description="Live or dataset pose overlay")
     p.add_argument("--camera", action="store_true", help="Laptop webcam")
+    p.add_argument("--camera-device", type=int, default=0, help="OpenCV camera device index")
     p.add_argument("--video", default="PM_023", help="REHAB24-6 video_id")
     p.add_argument("--ex", default="Ex1", choices=("Ex1", "Ex6"))
     args = p.parse_args()
     if args.camera:
-        play_camera()
+        play_camera(args.camera_device)
     else:
         play_dataset_video(args.video, args.ex)
 
