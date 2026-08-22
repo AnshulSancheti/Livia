@@ -1,0 +1,1076 @@
+{
+  "ex1": {
+    "lite": {
+      "variant": "lite",
+      "videos": [
+        {
+          "video_id": "PM_000",
+          "gt_reps": 5,
+          "pred_reps": 6,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 0.9984662576687117,
+          "rmse_px": 64.18881068490545,
+          "rmse_frac_diag": 0.029138227682334622,
+          "paused_frac": 0.0015337423312883436
+        },
+        {
+          "video_id": "PM_001",
+          "gt_reps": 10,
+          "pred_reps": 11,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 0.9920424403183024,
+          "rmse_px": 63.49903993233381,
+          "rmse_frac_diag": 0.028825109289540126,
+          "paused_frac": 0.007957559681697613
+        },
+        {
+          "video_id": "PM_012",
+          "gt_reps": 10,
+          "pred_reps": 11,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 0.9904286308780691,
+          "rmse_px": 61.24084406993941,
+          "rmse_frac_diag": 0.027800011231363653,
+          "paused_frac": 0.00957136912193092
+        },
+        {
+          "video_id": "PM_023",
+          "gt_reps": 10,
+          "pred_reps": 10,
+          "abs_err": 0,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 65.88241941941433,
+          "rmse_frac_diag": 0.029907033902365043,
+          "paused_frac": 0.0
+        },
+        {
+          "video_id": "PM_032",
+          "gt_reps": 11,
+          "pred_reps": 12,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 48.47939618849119,
+          "rmse_frac_diag": 0.02200700821482189,
+          "paused_frac": 0.0
+        },
+        {
+          "video_id": "PM_039",
+          "gt_reps": 11,
+          "pred_reps": 12,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 55.24779353700621,
+          "rmse_frac_diag": 0.02507949235779291,
+          "paused_frac": 0.0
+        },
+        {
+          "video_id": "PM_109",
+          "gt_reps": 10,
+          "pred_reps": 11,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 47.693156283965074,
+          "rmse_frac_diag": 0.02165009807570934,
+          "paused_frac": 0.0
+        },
+        {
+          "video_id": "PM_114",
+          "gt_reps": 11,
+          "pred_reps": 9,
+          "abs_err": 2,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 59.79732905990724,
+          "rmse_frac_diag": 0.027144733955209412,
+          "paused_frac": 0.0
+        },
+        {
+          "video_id": "PM_122",
+          "gt_reps": 10,
+          "pred_reps": 11,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 49.15210590835621,
+          "rmse_frac_diag": 0.022312381827019948,
+          "paused_frac": 0.0
+        }
+      ],
+      "mae_reps": 1.0,
+      "mean_pred_over_gt": 1.0666666666666667,
+      "mean_required_visible_in_rep": 1.0,
+      "gate_visibility_90": true,
+      "gate_count_mae1_or_ratio85": true,
+      "cue_rate_correct": {
+        "bent_elbow": 0.0,
+        "shrug": 0.0,
+        "incomplete_rom": 0.0425531914893617,
+        "trunk_lean": 0.0,
+        "too_fast": 0.1276595744680851,
+        "no_hold": 0.0,
+        "n": 47
+      },
+      "cue_rate_incorrect": {
+        "bent_elbow": 0.14634146341463414,
+        "shrug": 0.0,
+        "incomplete_rom": 0.0975609756097561,
+        "trunk_lean": 0.0,
+        "too_fast": 0.3170731707317073,
+        "no_hold": 0.0,
+        "n": 41
+      },
+      "watch_list": {
+        "correct": [
+          {
+            "video_id": "PM_000",
+            "rep": 1,
+            "frames": [
+              180,
+              377
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 2,
+            "frames": [
+              378,
+              620
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 3,
+            "frames": [
+              621,
+              865
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 4,
+            "frames": [
+              866,
+              1085
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 5,
+            "frames": [
+              1086,
+              1265
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 1,
+            "frames": [
+              130,
+              324
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 2,
+            "frames": [
+              325,
+              537
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 3,
+            "frames": [
+              538,
+              731
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 4,
+            "frames": [
+              732,
+              919
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 5,
+            "frames": [
+              920,
+              1090
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 1,
+            "frames": [
+              170,
+              360
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 2,
+            "frames": [
+              361,
+              528
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 3,
+            "frames": [
+              529,
+              718
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 4,
+            "frames": [
+              719,
+              890
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 5,
+            "frames": [
+              891,
+              1035
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 1,
+            "frames": [
+              35,
+              175
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 2,
+            "frames": [
+              176,
+              300
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 3,
+            "frames": [
+              301,
+              415
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 4,
+            "frames": [
+              416,
+              530
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 5,
+            "frames": [
+              531,
+              645
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          }
+        ],
+        "incorrect": [
+          {
+            "video_id": "PM_001",
+            "rep": 6,
+            "frames": [
+              1690,
+              1940
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 7,
+            "frames": [
+              2060,
+              2346
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 8,
+            "frames": [
+              2347,
+              2554
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 9,
+            "frames": [
+              2555,
+              2746
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 10,
+            "frames": [
+              2747,
+              2961
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 6,
+            "frames": [
+              1685,
+              1825
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 7,
+            "frames": [
+              1826,
+              1935
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 8,
+            "frames": [
+              1936,
+              2070
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 9,
+            "frames": [
+              2071,
+              2215
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_012",
+            "rep": 10,
+            "frames": [
+              2216,
+              2320
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 6,
+            "frames": [
+              905,
+              1037
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 7,
+            "frames": [
+              1038,
+              1174
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 8,
+            "frames": [
+              1175,
+              1310
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 9,
+            "frames": [
+              1311,
+              1452
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_023",
+            "rep": 10,
+            "frames": [
+              1453,
+              1574
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_032",
+            "rep": 7,
+            "frames": [
+              655,
+              795
+            ],
+            "bent_elbow": true,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_032",
+            "rep": 8,
+            "frames": [
+              796,
+              909
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_032",
+            "rep": 9,
+            "frames": [
+              910,
+              1008
+            ],
+            "bent_elbow": true,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_032",
+            "rep": 10,
+            "frames": [
+              1009,
+              1112
+            ],
+            "bent_elbow": true,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_032",
+            "rep": 11,
+            "frames": [
+              1113,
+              1238
+            ],
+            "bent_elbow": true,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": true,
+            "no_hold": false
+          }
+        ]
+      },
+      "count_metric_frozen": "mae_reps"
+    },
+    "full": {
+      "variant": "full",
+      "videos": [
+        {
+          "video_id": "PM_000",
+          "gt_reps": 5,
+          "pred_reps": 6,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 0.9992331288343558,
+          "rmse_px": 64.03877127384102,
+          "rmse_frac_diag": 0.029070117953017786,
+          "paused_frac": 0.0007668711656441718
+        },
+        {
+          "video_id": "PM_001",
+          "gt_reps": 10,
+          "pred_reps": 11,
+          "abs_err": 1,
+          "visible_in_rep": 1.0,
+          "detect_frac": 0.9920424403183024,
+          "rmse_px": 64.46474623702737,
+          "rmse_frac_diag": 0.029263487409966094,
+          "paused_frac": 0.007957559681697613
+        }
+      ],
+      "mae_reps": 1.0,
+      "mean_pred_over_gt": 1.15,
+      "mean_required_visible_in_rep": 1.0,
+      "gate_visibility_90": true,
+      "gate_count_mae1_or_ratio85": true,
+      "cue_rate_correct": {
+        "bent_elbow": 0.1,
+        "shrug": 0.0,
+        "incomplete_rom": 0.0,
+        "trunk_lean": 0.0,
+        "too_fast": 0.0,
+        "no_hold": 0.0,
+        "n": 10
+      },
+      "cue_rate_incorrect": {
+        "bent_elbow": 0.0,
+        "shrug": 0.0,
+        "incomplete_rom": 0.0,
+        "trunk_lean": 0.0,
+        "too_fast": 0.0,
+        "no_hold": 0.0,
+        "n": 5
+      },
+      "watch_list": {
+        "correct": [
+          {
+            "video_id": "PM_000",
+            "rep": 1,
+            "frames": [
+              180,
+              377
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 2,
+            "frames": [
+              378,
+              620
+            ],
+            "bent_elbow": true,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 3,
+            "frames": [
+              621,
+              865
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 4,
+            "frames": [
+              866,
+              1085
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_000",
+            "rep": 5,
+            "frames": [
+              1086,
+              1265
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 1,
+            "frames": [
+              130,
+              324
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 2,
+            "frames": [
+              325,
+              537
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 3,
+            "frames": [
+              538,
+              731
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 4,
+            "frames": [
+              732,
+              919
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 5,
+            "frames": [
+              920,
+              1090
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          }
+        ],
+        "incorrect": [
+          {
+            "video_id": "PM_001",
+            "rep": 6,
+            "frames": [
+              1690,
+              1940
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 7,
+            "frames": [
+              2060,
+              2346
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 8,
+            "frames": [
+              2347,
+              2554
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 9,
+            "frames": [
+              2555,
+              2746
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          },
+          {
+            "video_id": "PM_001",
+            "rep": 10,
+            "frames": [
+              2747,
+              2961
+            ],
+            "bent_elbow": false,
+            "shrug": false,
+            "incomplete_rom": false,
+            "trunk_lean": false,
+            "too_fast": false,
+            "no_hold": false
+          }
+        ]
+      },
+      "count_metric_frozen": "mae_reps"
+    }
+  },
+  "ex6": {
+    "lite": {
+      "variant": "lite",
+      "sit_to_stand_validated": false,
+      "sit_to_stand_note": "Sit-to-stand is not in REHAB24-6. Ex6 is squats filmed front-on. Do not claim STS accuracy from this test bench.",
+      "videos": [
+        {
+          "video_id": "PM_008",
+          "gt_reps": 17,
+          "pred_reps": 3,
+          "abs_err": 14,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 56.41335757942372,
+          "rmse_frac_diag": 0.025608595017336193
+        },
+        {
+          "video_id": "PM_022",
+          "gt_reps": 10,
+          "pred_reps": 4,
+          "abs_err": 6,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 55.17989426030536,
+          "rmse_frac_diag": 0.025048669780417438
+        },
+        {
+          "video_id": "PM_029",
+          "gt_reps": 10,
+          "pred_reps": 4,
+          "abs_err": 6,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 54.34854536331479,
+          "rmse_frac_diag": 0.0246712826130047
+        },
+        {
+          "video_id": "PM_038",
+          "gt_reps": 10,
+          "pred_reps": 5,
+          "abs_err": 5,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 53.54710458535709,
+          "rmse_frac_diag": 0.02430747210439949
+        },
+        {
+          "video_id": "PM_043",
+          "gt_reps": 10,
+          "pred_reps": 5,
+          "abs_err": 5,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 51.854099205727174,
+          "rmse_frac_diag": 0.02353893977465694
+        },
+        {
+          "video_id": "PM_105",
+          "gt_reps": 10,
+          "pred_reps": 10,
+          "abs_err": 0,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 57.65305386190434,
+          "rmse_frac_diag": 0.02617134968049992
+        },
+        {
+          "video_id": "PM_113",
+          "gt_reps": 10,
+          "pred_reps": 12,
+          "abs_err": 2,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 49.771514066778415,
+          "rmse_frac_diag": 0.022593559430340863
+        },
+        {
+          "video_id": "PM_118",
+          "gt_reps": 11,
+          "pred_reps": 0,
+          "abs_err": 11,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 56.428364314464076,
+          "rmse_frac_diag": 0.025615407258561863
+        },
+        {
+          "video_id": "PM_126",
+          "gt_reps": 10,
+          "pred_reps": 0,
+          "abs_err": 10,
+          "visible_in_rep": 1.0,
+          "detect_frac": 1.0,
+          "rmse_px": 47.603379040121126,
+          "rmse_frac_diag": 0.021609344091581814
+        }
+      ],
+      "mae_reps": 6.555555555555555,
+      "mean_required_visible_in_rep": 1.0,
+      "cue_rate_correct": {
+        "trunk_flex": 0.0,
+        "n": 72
+      },
+      "cue_rate_incorrect": {
+        "trunk_flex": 0.0,
+        "n": 26
+      }
+    }
+  },
+  "license": "REHAB24-6 CC BY-NC 4.0 \u2014 evaluate only, do not train shipped heads",
+  "chosen_variant": "lite"
+}

@@ -1,1 +1,7 @@
-data/ 
+data/
+.venv/
+ml/cache/
+ml/models/
+__pycache__/
+*.pyc
+.DS_Store 
