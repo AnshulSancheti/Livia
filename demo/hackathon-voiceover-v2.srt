@@ -1,0 +1,58 @@
+1
+00:00:00,000 --> 00:00:05,000
+Meet Livia — home rehabilitation made visible.
+
+2
+00:00:05,000 --> 00:00:12,000
+Patients exercise between appointments, but physiotherapists rarely see
+what happens during those sessions.
+
+3
+00:00:12,000 --> 00:00:20,000
+With Livia, the physiotherapist sets the exercises and targets.
+The patient simply starts the prescribed session.
+
+4
+00:00:20,000 --> 00:00:32,500
+First, shoulder abduction. The pose model tracks the body on each frame,
+while Livia's rule-based exercise policy follows the arm through the movement.
+
+5
+00:00:32,500 --> 00:00:45,500
+It counts completed repetitions and gives specific feedback when movement is
+rushed or the range is incomplete. It detected all nine reps in this recording.
+
+6
+00:00:45,500 --> 00:00:59,500
+The second prototype is sit-to-stand, filmed from the side. Livia chooses the
+most visible body side and follows the shoulder, hip, knee and ankle.
+
+7
+00:00:59,500 --> 00:01:15,100
+Six repetitions were completed. The first five took 22.2 seconds.
+This prototype exercise policy has not been clinically validated.
+
+8
+00:01:15,100 --> 00:01:22,600
+At the end, the patient sees completed reps, timing
+and whether tracking was interrupted.
+
+9
+00:01:22,600 --> 00:01:30,100
+They can add pain, exertion and a note. The product is designed to retain
+useful session measurements instead of raw video.
+
+10
+00:01:30,100 --> 00:01:37,600
+The physiotherapist gets a clear pre-visit report:
+adherence first, followed by movement details to review.
+
+11
+00:01:37,600 --> 00:01:45,100
+Patient context comes next. Livia does not diagnose or change the plan.
+The physiotherapist remains in control.
+
+12
+00:01:45,100 --> 00:01:53,100
+Five physiotherapists saw value in this visibility.
+Next, we want to test Livia with a clinical design partner.

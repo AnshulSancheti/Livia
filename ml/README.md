@@ -38,6 +38,12 @@ python -m ml.view --video PM_022 --ex Ex6
 
 # Your laptop camera, real time
 python -m ml.view --camera
+
+# Render the prototype side-view sit-to-stand overlay on a phone video
+python -m ml.render_sts input.mp4 output.mp4
 ```
 
 `q` quits. Space pauses dataset playback. Camera uses the same `.task` file with increasing timestamps (VIDEO mode), which is the laptop stand-in for phone `LIVE_STREAM`.
+
+The sit-to-stand renderer is a prototype policy and is not clinically or
+dataset validated. It is separate from the REHAB24-6 front-view squat policy.
