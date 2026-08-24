@@ -23,9 +23,6 @@ pre-visit summary.
 | --- | --- |
 | Pitch deck | [Open the Livia Pitch Deck](https://www.figma.com/slides/7v9Fi793CT6qUYgcFDIX3h/Livia-Pitch-Deck) |
 | YouTube walkthrough | **Coming after upload** — `TODO: add YouTube URL` |
-| Final narration | [Voiceover script](demo/hackathon-voiceover-script-v2.md) |
-| Video captions | [SRT captions](demo/hackathon-voiceover-v2.srt) |
-| Demo storyboard | [Walkthrough and shot list](demo/hackathon-walkthrough.md) |
 
 > Send the YouTube URL after upload and its placeholder can be replaced directly.
 
