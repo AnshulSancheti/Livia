@@ -61,7 +61,10 @@ ONE_EURO_BETA = 0.007
 ONE_EURO_DCUTOFF = 1.0
 
 # Abduction policy (right arm, front view). Coronal scalars are 2D (x,y).
-ABDUCTION_BOTTOM_ENTER = 25.0
+# Allow a small tracking margin at the bottom. A visually lowered arm can sit
+# around 25-28 degrees in portrait phone footage; requiring <25 for the full
+# dwell window can merge two otherwise complete repetitions.
+ABDUCTION_BOTTOM_ENTER = 30.0
 ABDUCTION_BOTTOM_LEAVE = 35.0
 ABDUCTION_TOP_ENTER = 80.0
 ABDUCTION_TOP_LEAVE = 70.0
@@ -114,6 +117,18 @@ HIP_DROP_LEAVE_STAND = 0.04
 HIP_DROP_ENTER_BOTTOM = 0.10
 HIP_DROP_LEAVE_BOTTOM = 0.07
 HIP_DROP_ENTER_STAND = 0.03
+
+# Five-times sit-to-stand prototype (side view). This policy is intentionally
+# separate from the REHAB24-6 front-view squat policy and is not dataset- or
+# clinically validated. The visible side is selected during clip calibration.
+STS_SEATED_ENTER = 110.0
+STS_SEATED_LEAVE = 120.0
+STS_STAND_ENTER = 155.0
+STS_STAND_LEAVE = 145.0
+STS_MIN_DWELL_FRAMES = 3
+STS_TRUNK_FLEX_DEG = 55.0
+STS_FORM_DWELL_FRAMES = 8
+STS_FAST_DESCENT_SEC = 0.35
 
 VISIBILITY_MIN = 0.6
 LITE_URL = (
